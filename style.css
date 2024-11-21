@@ -1,0 +1,221 @@
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #5e3a3a;
+    overflow-x:hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .botaoPadrao */
+.botaoPadrao {
+    padding: 1.0em 1em;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color:#6b2323;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+   }
+
+   .botaoPadrao:hover {
+    background-color: #7a5757;
+    box-shadow: 0px 15px 20px rgba(63, 63, 63, 0.4);
+    color: #941e1e;
+    transform: translateY(-7px);
+   }
+   
+   .botaoPadrao:active {
+    transform: translateY(-1px);
+   }
+
+   .banner {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    animation: moveBanner 1s forwards;
+    
+   }
+
+   .banner h1 {
+    color: #f31717;
+    font-size: 3.5rem;
+    font-weight: 300;
+    text-shadow: .3rem .4rem 2px rgb(0,0,0,0.404);
+    line-height: 3.5rem;
+    opacity: 0;
+    animation: moveBanner 0.5s forwards;
+   }
+
+   .banner p {
+    font-size: 2rem;
+    color: #590909;
+    text-shadow: .3rem .4rem 2px rgba(0,0,0,0.404);
+    line-height: 3,5rem;
+    margin-bottom: 2rem;
+    animation: moveBanner 0.7s forwards;
+    }
+
+    .banner #botao-banner{
+        animation: moveBanner 1s forwards;
+    }
+   /* header */
+
+   header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+   }
+   .img-fundo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2,2,2,0.952);
+   }
+   .img-fundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    animation: zoom 25s;
+   }
+   .menu-hamburguer {
+    background-color: rgb(185, 159, 159);
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.linha {
+    width: 100%;
+    height: .1rem;
+    background-color: rgb(252, 249, 249);
+    transition: transform 1s;
+    box-shadow: 1px 2px 4px 0px rgba(169, 28, 240, 0.984);
+
+}
+
+.menulateral {
+    width: 20rem;
+    height: 100vh;
+    background-color: rgb(172, 71, 71);
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all 0.4s;
+    z-index: 2;
+    backdrop-filter: blur(19px) sature (124%);
+    -webkit-backdrop-filter: blur(19px) saturate(124%);
+    background-color: rgb(25, 102, 170);
+}
+
+.show-menu .menulateral {
+    right: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -57%);
+    text-align: center;
+}
+
+.menu-hamburguer span {
+    position: absolute;
+    right: 50px;
+    width: 5rem;
+    height: 2rem;
+    padding: 0.4rem;
+    background-color: rgb(248, 245, 245);
+    text-align: center;
+    border-radius: 18px;
+    opacity: 0;
+}
+
+.menu-hamburguer span::before {
+    content: "";
+    position: absolute;
+    border-right: .5rem solid transparent;
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid rgb(221, 220, 220);
+    border-bottom: .5rem solid transparent;
+    left: 5.7rem;
+    bottom: .9rem;
+}
+
+@media (min-width: 821px){
+    .show-menu .menu-hamburguer:hover span {
+        opacity: 1;
+        transition-delay: 1s;
+
+    }
+}
+
+.show-menu #linha1 {
+    transform: rotate(45deg) translate(.3rem, .44rem);
+}
+
+.show-menu #linha2 {
+    transform: translate(-2px, -15px);
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+.show-menu #linha3 {
+    transform: rotate(45deg) translate(.3rem, .44rem);
+}
+
+.show-menu #linha4 {
+    transform: rotate(45deg) translate(.3rem, .44rem);
+}
+
+.show-menu #linha5 {
+    transform: rotate(45deg) translate(.3rem, .44rem);
+}
+
+.menu-link{
+    font-size: 2rem;
+    color: white;
+    transition: color 1s;
+}
+
+.menu-link:hover{
+    color: rebeccapurple;
+}
+
+.menu-item {
+    margin: 1.5em;
+    
+}.show-menu #menu-1 {
+    animation: moveMenu .4s;
+}
+.show-menu #menu-2 {
+    animation: moveMenu .6s ;
+}
+.show-menu #menu-3 {
+    animation: moveMenu .8s ;
+}
+.show-menu #menu-4 {
+    animation: moveMenu 1s ;
+}
+.show-menu #menu-5 {
+    animation: moveMenu 1.3s ;
+}

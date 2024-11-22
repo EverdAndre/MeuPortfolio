@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./KeyFrames.css">
+    <script src="script.js" defer></script>
     <title>Meu Portfólio</title>
 </head>
 <body>  
 
-  <div class="menuOpcoes">
+  <div class="container">
 
-    <div class="menu-hamburguer">
+    <!-- Botão para fechar o menu -->
+    <div class="hamburguer Close-menu">
         <div class="linha" id="linha-1"></div>
         <div class="linha" id="linha-2"></div>
         <div class="linha" id="linha-3"></div>
-        <div class="linha" id="linha-4"></div>
-        <div class="linha" id="linha-5"></div>
+        
         <span>Fechar</span>
     </div>
 
@@ -34,19 +35,19 @@
         </div>
 
     </header> 
-    <aside class="menulateral">
+    <aside class="sidebar">
       <nav>
         <ul class="menu">
-          <li class="menu-item"><a id="menu-fechado" href="#" class="menu-link">inicio</a></li>
-          <li class="menu-item"><a id="menu-fechado" href="#conhecimentos" class="menu-link">conhecimentos</a></li>
-          <li class="menu-item"><a id="menu-fechado" href="#projetos" class="menu-link">projetos</a></li>
-          <li class="menu-item"><a id="menu-fechado" href="#contato" class="menu-link">contatos</a></li>
-          <li class="menu-item"><a id="menu-fechado" href="#orcamento" class="menu-link">orçamentos</a></li>
+          <li id="menu-1" class="menu-item"><a class="Close-menu menu-link" href="#">Inicio</a></li>
+          <li id="menu-2" class="menu-item"><a class="Close-menu menu-link" href="#conhecimentos">Conhecimentos</a></li>
+          <li id="menu-3" class="menu-item"><a class="Close-menu menu-link" href="#projetos">Projetos</a></li>
+          <li id="menu-4" class="menu-item"><a class="Close-menu menu-link" href="#contato">Contato</a></li>
+          <li id="menu-5" class="menu-item"><a class="Close-menu menu-link" href="#orcamento">Orçamento</a></li>
         </ul>
       </nav>
       <div class="redes-sociais">
         <a id="social-1" href="#"><i class="facebook"></i></a>
-        <a id="social-2" href="#"><i class="instagran"></i></a>
+        <a id="social-2" href="#"><i class="instagram"></i></a>
         <a id="social-3" href="#"><i class="github"></i></a>
         <a id="social-4" href="#"><i class="linkedin"></i></a>
       </div>

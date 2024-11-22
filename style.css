@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+
 * {
     margin:0;
     padding:0;
@@ -197,7 +199,7 @@ html {
 }
 
 .menu-link:hover{
-    color: rebeccapurple;
+    color: rgb(51, 134, 155);
 }
 
 .menu-item {
@@ -217,4 +219,43 @@ html {
 }
 .show-menu #menu-5 {
     animation: moveMenu 1.3s ;
+}
+
+.redes-sociais {
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.redes-sociais i{
+    background-color: transparent;
+    color:black ;
+    height: 2.5rem;
+    font-size: 2.7rem;
+    transition: color 1s;
+
+}
+
+.redes-sociais i:hover{
+    color: rgb(30, 147, 153);
+
+}
+
+.show-menu #social-1{
+    animation: moverBanner 1.6s;
+}
+
+.show-menu #social-2{
+    animation: moverBanner 1.8s;
+}
+
+.show-menu #social-3{
+    animation: moverBanner 2s;
+}
+
+.show-menu #social-4{
+    animation: moverBanner 2.2s;
 }

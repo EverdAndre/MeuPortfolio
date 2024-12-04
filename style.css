@@ -66,7 +66,7 @@ header{
 
 .baner p {
     font-size: 1.5rem;
-    color: #e1c1c1;
+    color: #f3eded;
     text-shadow: .3rem .4rem 2px rgba(0,0,0,0.404);
     animation: moveBanner 2s forwards;
     }
@@ -184,7 +184,7 @@ header{
     
     .baner p {
         font-size: 2.5rem;
-        color: #e1c1c1;
+        color:#f3eded;
         text-shadow: .3rem .4rem 2px rgba(0,0,0,0.404);
         animation: moveBanner 2s forwards;
         }
@@ -260,7 +260,7 @@ header{
     
     .baner p {
         font-size: 2.5rem;
-        color: #e1c1c1;
+        color:#f3eded;
         text-shadow: .3rem .4rem 2px rgba(0,0,0,0.404);
         animation: moveBanner 2s forwards;
         }

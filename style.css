@@ -233,4 +233,80 @@ header{
 
 }
 
+@media (min-width:1024px){
+    .baner {
+        position: absolute;
+        top: 2rem;
+        padding: 2px;
+        margin: 1px;
+    }
+    .text-baner{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        text-align: left;
+        line-height: 3.5rem;
+        left: 3%;        
+    }
+    
+    .baner h1{
+        width: 100%;
+        color: #d24b4b;
+        font-size: 4rem;
+        font-weight: 300;
+        text-shadow: .3rem .4rem 2px rgb(0,0,0,0.404);
+        animation: moveBanner 2s forwards;
+    }
+    
+    .baner p {
+        font-size: 2.5rem;
+        color: #590909;
+        text-shadow: .3rem .4rem 2px rgba(0,0,0,0.404);
+        animation: moveBanner 2s forwards;
+        }
+    
+    .foto {
+        text-align:left;    
+    }
+    
+    .foto img {
+        left: 1rem;
+        border-radius: 50%;
+        border: 2px solid black;
+        width: 50%;
+        animation: zoom 5s;
+        margin: 1%;
+        padding: 1%;   
+    }
+    .menu {
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 2.5px;
+        padding: 1px;
+        margin: 1px;
+        display:flex;
+        justify-content:flex-start ;
+        align-items:center;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        height: 40px;
+    }
+
+    .botaoPadrao {
+        padding: 1.0em 1em;
+        font-size: 20px;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        background-color:#6b2323;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        animation: moveBanner 2s forwards;
+    }
+
+}
+
 

@@ -1,0 +1,26 @@
+.baner-conhecimento {
+    position: absolute;
+    width: 100%;
+    top: 7rem;  
+}
+.baner-conhecimento .text-baner{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.baner-conhecimento h1{
+    width: 100%;
+    color: #d24b4b;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-shadow: .3rem .4rem 2px rgb(0,0,0,0.404);
+    animation: moveBanner 2s forwards;
+}
+
+.baner-conhecimento p {
+    font-size: 1.5rem;
+    color: #f3eded;
+    animation: moveBanner 2s forwards;
+    text-align: center;
+    display: flex;
+    }

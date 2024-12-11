@@ -6,7 +6,8 @@
     text-decoration: none;
 }
 header{
-    height: 150vh;    
+    overflow: initial;
+    height: 100%;     
 }
 
 /* estilos basicos */
@@ -81,9 +82,11 @@ header{
     height: 100%; 
     animation: zoom 2s; 
     text-align: center; 
-    margin: 5px;
     justify-content: center;
-    align-items: baseline;   
+    align-items: baseline;
+    background-color: #2b4c7b;
+    border: solid 2px #d24b4b;
+      
 }
 @media (min-width:1024px){
     .sessao-contatos{ 

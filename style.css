@@ -10,12 +10,13 @@
 /* estilos basicos */
 
 body {
-    background-color: #918e8e;
+    background-color: #020e1ad6;
     overflow-x:hidden;
 }
 
 html {
     scroll-behavior: smooth;
+    font-size: 100%;
 }
 
 header{
@@ -28,8 +29,8 @@ header{
 
 .img-fundo{
     width: 100%;
-    height: 100%;
-    background-color: rgba(2,2,2,0.952);
+    height: 100vh;
+    background-color: rgba(18, 18, 18, 0.952);
 }
 
 .img-fundo img {

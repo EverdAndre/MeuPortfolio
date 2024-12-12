@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./orcamento.css">
     <title>Meu Portfólio</title>
 </head>
+
 <body>
     <header>
         <!-- Imagem de Fundo -->
@@ -21,7 +23,7 @@
             </div>
             <div class="text-baner">
                 <h1 class="titulo">Portfólio Pessoal</h1>
-                <p>Everd André Loebens</p>
+                <p>Orçamentos</p>
             </div>
         </div>
         
@@ -31,12 +33,43 @@
         <div class="container-topo">
             <ul class="menu">
                 <li id="menu-1" class="menu-item"><a class="Close-menu menu-link" href="index.html">Home</a></li>
-                <li id="menu-2" class="menu-item"><a class="Close-menu menu-link" href="conhecimentos.html" >Conhecimentos</a></li>
-                <li id="menu-3" class="menu-item"><a class="Close-menu menu-link" href="projetos.html" >Projetos</a></li>
-                <li id="menu-4" class="menu-item"><a class="Close-menu menu-link" href="contatos.html" >Contato</a></li>
-                <li id="menu-5" class="menu-item"><a class="Close-menu menu-link" href="orcamento.html" >Orçamento</a></li>
+                <li id="menu-2" class="menu-item"><a class="Close-menu menu-link"
+                        href="conhecimentos.html">Conhecimentos</a></li>
+                <li id="menu-3" class="menu-item"><a class="Close-menu menu-link" href="projetos.html">Projetos</a></li>
+                <li id="menu-4" class="menu-item"><a class="Close-menu menu-link" href="contatos.html">Contato</a></li>
+                <li id="menu-5" class="menu-item"><a class="Close-menu menu-link" href="orcamento.html">Orçamento</a>
+                </li>
             </ul>
         </div>
-    </nav>   
+    </nav>
+    <section id="orcamento_section">
+        <div class="frame-orcamento">
+            <div class="frame_padrao_pequeno">
+                <p>Faça seu orçamento</p>
+            </div>
+            <div id="orcamento">
+                <form action="post">
+                    <div>
+                        <label for="nome">Nome</label><br />
+                        <input name="nome" type="text" />
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label><br />
+                        <input name="telefone" type="tel" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br />
+                        <input name="email" type="email" />
+                    </div>
+                    <div>
+                        <label for="mensagem">Como Posso te Ajudar</label>
+                        <br />
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                    </div>
+                    <button type="button" onclick="alert('Formulário enviado com sucesso!')">Enviar</button>
+                </form>
+            </div>
+        </div>
 </body>
+
 </html>

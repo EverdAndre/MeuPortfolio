@@ -1,5 +1,6 @@
 /* estilos personalizados padrão  */
-
+/* ÉVERD LOEBENS
+RU: 4695252 */
 @keyframes moveBanner {
     0% {
         transform: translateY(10rem) rotateY(-30deg);
